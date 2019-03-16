@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.106
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adminka", "Adminka\Adminka.csproj", "{4174E4E7-BE64-48E3-BA93-736F750DA5F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adminka", "Adminka\Adminka.csproj", "{4174E4E7-BE64-48E3-BA93-736F750DA5F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{AA960E5E-0E4D-4769-824B-BBC9014FD5D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{4174E4E7-BE64-48E3-BA93-736F750DA5F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4174E4E7-BE64-48E3-BA93-736F750DA5F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4174E4E7-BE64-48E3-BA93-736F750DA5F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA960E5E-0E4D-4769-824B-BBC9014FD5D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA960E5E-0E4D-4769-824B-BBC9014FD5D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA960E5E-0E4D-4769-824B-BBC9014FD5D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA960E5E-0E4D-4769-824B-BBC9014FD5D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
