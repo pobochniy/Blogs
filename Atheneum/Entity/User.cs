@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace Atheneum.Entity.Identity
+namespace Atheneum.Entity
 {
     public class User
     {

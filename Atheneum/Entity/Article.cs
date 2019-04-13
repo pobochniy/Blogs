@@ -1,13 +1,12 @@
-﻿using System;
+﻿using Atheneum.Enums;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace Adminka.Models
+namespace Atheneum.Entity
 {
-    public class Article
+    public class ArticleLanguage
     {
         /// <summary>
         /// Идентификатор
@@ -37,5 +36,13 @@ namespace Adminka.Models
         /// Содержание
         /// </summary>
         public string Content { get; set; }
+        
+        /// <summary>
+        /// Язык
+        /// </summary>
+        public LangEnum Lang { get; set; }
+
+
+        public Article Article { get; set; }
     }
 }

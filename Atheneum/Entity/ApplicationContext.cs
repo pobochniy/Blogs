@@ -1,12 +1,13 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace Atheneum.Entity.Identity
+namespace Atheneum.Entity
 {
     public class ApplicationContext : DbContext
     {
         public DbSet<User> Users { get; set; }
         public DbSet<Profile> Profiles { get; set; }
         public DbSet<Role> Roles { get; set; }
+        public DbSet<Article> Articles { get; set; }
 
         public ApplicationContext(DbContextOptions options)
             : base(options)
